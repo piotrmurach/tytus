@@ -19,11 +19,11 @@ module Tytus
   class Railtie
     class << self
       def insert_view
-        ActionView::Base.send :include, Tytus::ViewExtensions
+        ::ActionView::Base.send :include, Tytus::ViewExtensions
       end
 
       def insert_controller
-        ActionController::Base.send :include, Tytus::ControllerExtensions
+        ::ActionController::Base.send :include, Tytus::ControllerExtensions
       end
     end
   end
