@@ -12,7 +12,7 @@ module Tytus
       name || translate('titles.site_name')
     end
 
-    # Insert title string inbetween html title tags.
+    # Inserts title string inbetween html title tags.
     #
     def render_page_title(*args)
       options = args.extract_options!
