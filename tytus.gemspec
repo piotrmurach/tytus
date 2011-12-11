@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Piotr Murach"]
   s.email       = [""]
   s.homepage    = "https://github.com/peter-murach/tytus"
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Helps you manage page titles in your Rails application.}
+  s.description = %q{In order to improve overall design of your app and increase findability of your pages in search ranks, Tytus gives you a declarative manner in which to title your pages.}
 
   s.rubyforge_project = "tytus"
 
