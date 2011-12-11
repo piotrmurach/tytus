@@ -23,7 +23,7 @@ module Tytus
       end
 
       def insert_controller
-        ActionController.send :include, Tytus::ControllerExtensions
+        ActionController::Base.send :include, Tytus::ControllerExtensions
       end
     end
   end
