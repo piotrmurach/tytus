@@ -1,5 +1,8 @@
 # encoding: utf-8
 
+require 'action_controller'
+require 'action_view'
+
 module Tytus
   if defined? Rails::Railtie
     class Railtie < Rails::Railtie

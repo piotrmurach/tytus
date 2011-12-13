@@ -1,6 +1,5 @@
 # encoding: utf-8
 
-require "rails"
 require "tytus/version"
 require "tytus/railtie"
 require "tytus/compatibility"
