@@ -7,6 +7,8 @@ module Tytus
       base.extend ClassMethods
       if base.respond_to? :class_inheritable_accessor
         base.class_inheritable_accessor :_page_title
+      elsif base.respond_to? :class_attribute
+        base.class_attribute :_page_title
       else
         base.superclass_delegating_accessor :_page_title
       end
