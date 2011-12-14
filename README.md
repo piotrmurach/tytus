@@ -1,4 +1,8 @@
-# Tytus <img src="http://upload.wikimedia.org/wikipedia/en/8/8f/Tytus_Harcerz.jpg" align="right" />[![Build Status](https://secure.travis-ci.org/peter-murach/tytus.png?branch=master)][travis] [![Dependency Status](https://gemnasium.com/peter-murach/tytus.png?travis)][gemnasium]
+# Tytus <img src="http://upload.wikimedia.org/wikipedia/en/8/8f/Tytus_Harcerz.jpg" align="right" />
+[![Build Status](https://secure.travis-ci.org/peter-murach/tytus.png?branch=master)][travis] [![Dependency Status](https://gemnasium.com/peter-murach/tytus.png?travis)][gemnasium]
+
+[travis]: http://travis-ci.org/jnunemaker/twitter
+[gemnasium]: https://gemnasium.com/jnunemaker/twitter
 
 Helps you manage page titles in your Rails application.
 
