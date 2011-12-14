@@ -1,0 +1,187 @@
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (34.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (15.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+
+
+Started GET "/projects" for 127.0.0.1 at 2011-12-12 21:47:03 +0000
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 21:48:08 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (12.8ms)
+Completed 500 Internal Server Error in 78ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 21:50:32 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 79ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 21:52:06 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.3ms)
+Completed 500 Internal Server Error in 78ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 22:26:01 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (37.1ms)
+Completed 500 Internal Server Error in 80ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 22:45:08 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.9ms)
+Completed 500 Internal Server Error in 80ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 22:49:22 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (37.1ms)
+Completed 500 Internal Server Error in 80ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 22:50:37 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.3ms)
+Completed 500 Internal Server Error in 78ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 22:54:36 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.6ms)
+Completed 500 Internal Server Error in 78ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 23:04:47 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.8ms)
+Completed 500 Internal Server Error in 87ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 23:06:15 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.7ms)
+Completed 500 Internal Server Error in 79ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 23:09:18 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.9ms)
+Completed 500 Internal Server Error in 79ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 23:12:59 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (37.0ms)
+Completed 500 Internal Server Error in 80ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 23:14:20 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.0ms)
+Completed 500 Internal Server Error in 77ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 23:16:01 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.5ms)
+Completed 500 Internal Server Error in 78ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 23:16:48 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.9ms)
+Completed 500 Internal Server Error in 79ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 23:17:43 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.4ms)
+Completed 500 Internal Server Error in 79ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 23:18:45 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.7ms)
+Completed 500 Internal Server Error in 79ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-12 23:19:14 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.8ms)
+Completed 500 Internal Server Error in 79ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-13 23:01:17 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (62.5ms)
+Completed 500 Internal Server Error in 138ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-13 23:01:56 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (37.3ms)
+Completed 500 Internal Server Error in 80ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-13 23:02:55 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (37.0ms)
+Completed 500 Internal Server Error in 80ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-13 23:03:35 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.4ms)
+Completed 500 Internal Server Error in 79ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-13 23:05:12 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.8ms)
+Completed 500 Internal Server Error in 79ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-13 23:06:29 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (37.3ms)
+Completed 500 Internal Server Error in 81ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-13 23:07:44 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.4ms)
+Completed 500 Internal Server Error in 78ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-13 23:16:16 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.4ms)
+Completed 500 Internal Server Error in 78ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-13 23:18:45 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.3ms)
+Completed 500 Internal Server Error in 78ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-13 23:19:23 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.2ms)
+Completed 500 Internal Server Error in 77ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-13 23:20:34 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (36.7ms)
+Completed 500 Internal Server Error in 79ms
+
+
+Started GET "/articles" for 127.0.0.1 at 2011-12-14 21:14:34 +0000
+  Processing by ArticlesController#index as HTML
+Rendered articles/index.html.erb within layouts/application (62.7ms)
+Completed 500 Internal Server Error in 117ms
