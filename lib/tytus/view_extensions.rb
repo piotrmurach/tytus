@@ -27,7 +27,11 @@ module Tytus
     # Check and where possible use translation from the current locale file.
     #
     def check_translation(controller_name)
-      translate('titles.' + controller_name) || controller_name.humanize
+      if translate('titles.' + controller_name) =~ /translation missing/
+        controller_name.humanize
+      else
+        translate('titles.' + controller_name)
+      end
     end
 
     # Allows for setting titles in the view layer.
@@ -43,7 +47,7 @@ module Tytus
 
     def _page_title
       controller_name = @controller.class.name.gsub('Controller', '').downcase
-      @controller.class._page_title #|| check_translation(controller_name)
+      @controller.class._page_title || check_translation(controller_name)
     end
 
     def _content_defined?(symbol)
