@@ -1,8 +1,8 @@
 # Tytus <img src="http://upload.wikimedia.org/wikipedia/en/8/8f/Tytus_Harcerz.jpg" align="right" />
 [![Build Status](https://secure.travis-ci.org/peter-murach/tytus.png?branch=master)][travis] [![Dependency Status](https://gemnasium.com/peter-murach/tytus.png?travis)][gemnasium]
 
-[travis]: http://travis-ci.org/jnunemaker/twitter
-[gemnasium]: https://gemnasium.com/jnunemaker/twitter
+[travis]: http://travis-ci.org/peter-murach/tytus
+[gemnasium]: https://gemnasium.com/peter-murach/tytus
 
 Helps you manage page titles in your Rails application.
 
@@ -13,7 +13,13 @@ In order to improve overall design of your app and increase findability of your 
 Add to your Gemfile and run the `bundle` command to install.
 
 ```ruby
-gem "tytus"
+gem 'tytus'
+```
+
+To configure your Rails 2.x application, in `config/environment.rb` add
+
+```ruby
+config.get 'tytus'
 ```
 
 ## Usage
@@ -67,7 +73,7 @@ and this will overwrite controller set titles.
 
 Once you set your titles, in your layout call helper method `render_page_title`:
 
-```ruby
+```html
 <head>
   <title><%= render_page_title %></title>
 </head>
@@ -75,7 +81,7 @@ Once you set your titles, in your layout call helper method `render_page_title`:
 
 By default `::` separator is used to change this pass `separator` hash parameter:
 
-```ruby
+```html
 <head>
   <title><%= render_page_title :separator => ' | ' %></title>
 </head>
