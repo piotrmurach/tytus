@@ -70,10 +70,10 @@ describe Tytus do
 
       it "should " do
         pending
-        controller_instance.stub(:class).and_return controller
-        controller.stub(:name).and_return 'ArticlesController'
-        view_instance.title 'some', 'view'
-        controller._page_title.should eq 'some :: view'
+#         controller_instance.stub(:class).and_return controller
+#         controller.stub(:name).and_return 'ArticlesController'
+#         view_instance.title 'some', 'view'
+#         controller._page_title.should eq 'some :: view'
       end
     end
   end # ViewExtensions
