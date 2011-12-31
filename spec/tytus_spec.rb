@@ -3,6 +3,7 @@
 require 'spec_helper'
 
 describe Tytus do
+  include Integration
 
   let(:controller) { Class.new(ActionController::Base) }
   let(:controller_instance) { controller.new }
@@ -22,6 +23,10 @@ describe Tytus do
 
       it "shoulbe be available to ActionController instance methods" do
         controller_instance.should respond_to :title
+      end
+
+      it "should be able to set title" do
+        controller.title 'My Title'
       end
     end
 
@@ -66,14 +71,6 @@ describe Tytus do
     context '.title' do
       it 'should be available to view' do
         view_instance.should respond_to :title
-      end
-
-      it "should " do
-        pending
-#         controller_instance.stub(:class).and_return controller
-#         controller.stub(:name).and_return 'ArticlesController'
-#         view_instance.title 'some', 'view'
-#         controller._page_title.should eq 'some :: view'
       end
     end
   end # ViewExtensions
