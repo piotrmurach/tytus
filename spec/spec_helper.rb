@@ -4,7 +4,7 @@ require 'tytus'
 ENV["RAILS_ENV"] = "test"
 
 require File.expand_path("../rails_app/config/environment.rb",  __FILE__)
-require "rails/test_help"
+require "rspec/rails"
 
 require 'action_controller'
 require 'action_view'
