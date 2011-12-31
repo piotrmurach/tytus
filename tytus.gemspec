@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = [""]
   s.homepage    = "https://github.com/peter-murach/tytus"
   s.summary     = %q{Helps you manage page titles in your Rails application.}
-  s.description = %q{In order to improve overall design of your app and increase findability of your pages in search ranks, Tytus gives you a declarative manner in which to title your pages.}
+  s.description = %q{Tytus gives you a declarative manner in which to title your pages in order to improve overall design of your app and increase findability of your pages in search ranks.}
 
   s.rubyforge_project = "tytus"
 
@@ -22,6 +22,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "rails"
   s.add_development_dependency "sqlite3"
-  s.add_development_dependency "rspec"
+  s.add_development_dependency "rspec-rails"
   s.add_development_dependency "capybara"
 end
