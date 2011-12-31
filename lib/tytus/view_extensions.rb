@@ -18,7 +18,7 @@ module Tytus
       options = args.extract_options!
       separator =  options[:separator] || " :: "
       if _page_title.present?
-        "#{[_page_title].flatten.join(separator)} #{separator} #{site_name}"
+        "#{[_page_title].flatten.join(separator)} #{separator.strip} #{site_name}"
       else
         site_name
       end
@@ -39,8 +39,9 @@ module Tytus
     def title(*args)
       options = args.extract_options!
       unless args.empty?
-         @controller.class._page_title = args
+         @controller.class._page_title = args.join(' ')
       end
+      @controller.class._page_title
     end
 
     private
