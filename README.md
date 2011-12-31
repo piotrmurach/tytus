@@ -6,7 +6,7 @@
 
 Helps you manage page titles in your Rails application.
 
-In order to improve overall design of your app and increase findability of your pages in search ranks, Tytus gives you a declarative manner in which to title your pages.
+Tytus gives you a declarative manner in which to title your pages in order to improve overall design of your app and to increase findability of your pages in search ranks.
 
 ## Installation
 
@@ -19,14 +19,14 @@ gem 'tytus'
 To configure your Rails 2.x application, in `config/environment.rb` add
 
 ```ruby
-config.get 'tytus'
+config.gem 'tytus'
 ```
 
 ## Usage
 
 Update your locales file as in the following:
 
-```ruby
+```
 en:
   titles:
     site_name: Your site name goes here
@@ -67,6 +67,10 @@ In your views:
 
 ```ruby
 <%- title 'A title for this particular view' %>
+
+or 
+
+<h1><%= title 'A title for this particular view that renders also inside enclosed tag' %></h1>
 ```
 
 and this will overwrite controller set titles.
