@@ -1,8 +1,17 @@
-# Tytus <img src="http://upload.wikimedia.org/wikipedia/en/8/8f/Tytus_Harcerz.jpg" align="right" />
-[![Build Status](https://secure.travis-ci.org/peter-murach/tytus.png?branch=master)][travis] [![Dependency Status](https://gemnasium.com/peter-murach/tytus.png?travis)][gemnasium]
+# Tytus
+[![Gem Version](https://badge.fury.io/rb/tytus.svg)][gem]
+[![Build Status](https://secure.travis-ci.org/piotrmurach/tytus.svg?branch=master)][travis]
+[![Dependency Status](https://gemnasium.com/piotrmurach/tytus.png?travis)][gemnasium]
+[![Code Climate](https://codeclimate.com/github/piotrmurach/tytus/badges/gpa.svg)][codeclimate]
+[![Coverage Status](https://coveralls.io/repos/github/piotrmurach/tytus/badge.svg)][coverage]
+[![Inline docs](http://inch-ci.org/github/piotrmurach/tytus.svg?branch=master)][inchpages]
 
-[travis]: http://travis-ci.org/peter-murach/tytus
-[gemnasium]: https://gemnasium.com/peter-murach/tytus
+[gem]: http://badge.fury.io/rb/tytus
+[gemnasium]: https://gemnasium.com/piotrmurach/tytus
+[travis]: http://travis-ci.org/piotrmurach/tytus
+[codeclimate]: https://codeclimate.com/github/piotrmurach/tytus
+[coverage]: https://coveralls.io/github/piotrmurach/tytus
+[inchpages]: http://inch-ci.org/github/piotrmurach/tytus
 
 Helps you manage page titles in your Rails application.
 
@@ -93,8 +102,8 @@ By default `::` separator is used to change this pass `separator` hash parameter
 
 ## Development
 
-Questions or problems? Please post them on the [issue tracker](https://github.com/peter-murach/tytus/issues). You can contribute changes by forking the project and submitting a pull request. You can ensure the tests are passing by running `bundle` and `rake`.
+Questions or problems? Please post them on the [issue tracker](https://github.com/piotrmurach/tytus/issues). You can contribute changes by forking the project and submitting a pull request. You can ensure the tests are passing by running `bundle` and `rake`.
 
 ## Copyright
 
-Copyright (c) 2011 Piotr Murach. See LICENSE for further details.
+Copyright (c) 2011-2016 Piotr Murach. See LICENSE for further details.
