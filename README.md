@@ -1,7 +1,7 @@
 # Tytus
 [![Gem Version](https://badge.fury.io/rb/tytus.svg)][gem]
 [![Build Status](https://secure.travis-ci.org/piotrmurach/tytus.svg?branch=master)][travis]
-[![Dependency Status](https://gemnasium.com/piotrmurach/tytus.png?travis)][gemnasium]
+[![Dependency Status](https://gemnasium.com/piotrmurach/tytus.svg?travis)][gemnasium]
 [![Code Climate](https://codeclimate.com/github/piotrmurach/tytus/badges/gpa.svg)][codeclimate]
 [![Coverage Status](https://coveralls.io/repos/github/piotrmurach/tytus/badge.svg)][coverage]
 [![Inline docs](http://inch-ci.org/github/piotrmurach/tytus.svg?branch=master)][inchpages]
@@ -19,17 +19,19 @@ Tytus gives you a declarative manner in which to title your pages in order to im
 
 ## Installation
 
-Add to your Gemfile and run the `bundle` command to install.
+Add to your Gemfile:
 
 ```ruby
 gem 'tytus'
 ```
 
-To configure your Rails 2.x application, in `config/environment.rb` add
+And then execute:
 
-```ruby
-config.gem 'tytus'
-```
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install tytus
 
 ## Usage
 
